@@ -7,6 +7,8 @@ body {
 #top{
   font-size: 200%;
   font-family: arial;
+  color: #ffffff;
+  background-color: #1e368c;
 }
 #status-bar-unlocked {
   height: 80px;
