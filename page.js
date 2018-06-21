@@ -1,5 +1,5 @@
 function sunsetbutton(){
-  window.location.href = 'https://www.google.com/search?q=best+places+to+see+the+sunset+in+nyc&rlz=1C5CHFA_enUS764US764&oq=best+places+to+see+the+sunset&aqs=chrome.1.69i57j0l5.6605j1j7&sourceid=chrome&ie=UTF-8';
+  window.location.href = 'https://www.buzzfeed.com/erinchack/places-nyc-locals-go-to-watch-the-sunset?utm_term=.huolWGGy#.kl20B443';
 }
 
 //listeners
