@@ -4,6 +4,10 @@ body {
   font-size: 20px;
 }
 
+.img{
+  width: 78%;
+}
+
 #top{
   font-size: 200%;
   font-family: arial;
