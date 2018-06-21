@@ -1,0 +1,88 @@
+body {
+  background-color: #54A2D1;
+  text-align: center;
+  font-size: 20px;
+}
+
+#status-bar-unlocked {
+  height: 80px;
+  width: 100%;
+  background-color: #FDE602;
+  font-size: 200%;
+  font-family: arial;
+}
+
+#status-bar-locked {
+  height: 80px;
+  width: 100%;
+  background-color: #46FD02;
+  font-size: 200%;
+  font-family: arial;
+}
+
+#status-bar-unlocking {
+  height: 80px;
+  width: 100%;
+  background-color: grey;
+  font-size: 200%;
+  font-family: arial;
+}
+
+#status-bar-locking {
+  height: 80px;
+  width: 100%;
+  background-color: grey;
+  font-size: 200%;
+  font-family: arial;
+}
+
+#status-bar-open {
+  height: 80px;
+  width: 100%;
+  background-color: blue;
+  font-size: 200%;
+  font-family: arial;
+}
+#status-bar-loading {
+  height: 80px;
+  width: 100%;
+  background-color: orange;
+  font-size: 200%;
+  font-family: arial;
+}
+#status-bar-waiting {
+  height: 80px;
+  width: 100%;
+  background-color: yellow;
+  font-size: 200%;
+  font-family: arial;
+}
+
+ .small-button{
+   height: 80px;
+   width: 20%;
+ }
+
+ .smallest-button{
+   height: 60px;
+   width: 20%;
+ }
+
+ .sliders{
+   width: 40%
+ }
+
+ .small-button {
+   background-color: white;
+ }
+
+
+ .smallest-button {
+   background-color: white;
+ }
+
+ .off-button {
+   background-color: white;
+   height: 80px;
+   width: 20%;
+ }

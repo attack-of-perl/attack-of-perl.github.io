@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!--main screen-->
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Your Door Lock</title>
+  <link rel="stylesheet"  href="styles.css">
+</head>
+<body>
+  <!--Main Page which displays the status and the button used to change status
+  also includes a button to go to advanced controls and sign out-->
+  <div id="basic-controls">
+    <!--States: UNLOCKED, LOCKED, OPEN, UNLOCKING, LOCKING, LOADING, WAITING
+    USE: shows user the current state of the garage
+    Similar to other div elements in the HTML, are hidden and unhidden using JavaScript-->
+    <div id="status-bar-unlocked">
+      DOOR UNLOCKED
+    </div>
+    <div id="status-bar-locked">
+      DOOR LOCKED
+    </div>
+    <div id="status-bar-open">
+      DOOR OPEN
+    </div>
+    <div id="status-bar-unlocking">
+      DOOR UNLOCKING
+    </div>
+    <div id="status-bar-locking">
+      DOOR LOCKING
+    </div>
+    <div id="status-bar-loading">
+      LOADING
+    </div>
+    <div id="status-bar-waiting">
+      WAITING
+    </div>
+    <br>
+    <button id="door-close"class="off-button"> LOCK DOOR </button>
+    <button id="door-open"class="off-button"> UNLOCK DOOR </button>
+    <br><br>
+    <!--button to move to advanced-features -->
+    <button id="adv" class="small-button"> Advanced Features </button>
+    <br><br>
+    <!--button to move to sign out, takes you to the login page -->
+    <button id="sign-out" class="smallest-button"> Sign Out </button>
+  </div>
+  <!--ADVANCED FEATURES PAGE where you can toggle the auto-lock feature.
+  Includes a checkbox used to toggle auto-lock -->
+  <div id="advanced-features">
+    <label>Enable Auto-Lock<input id="enableAC" type = "checkbox" ></label><br><br>
+  <!--button to return to basic-controls-->
+  <button id="return-home" class="small-button"> Return to Home Screen </button>
+</div>
+<!--LOGIN PAGE, includes fields for inputing Username and Password
+also includes buttons to sign in and create an account
+note that the login feature does not actually work, it only serves to show how the UI would work-->
+<div id="login">
+  <!--username and password input-->
+  <h1> Login Page </h1>
+  Username: <input type = "text" name = "username"><br><br>
+  Password: <input type = "password" name = "password"><br><br>
+  <!--login and move to basic-controls (main screen)-->
+  <button id="login-button" class="small-button"> Login </button>
+  <br><br>
+  <!--move to create-account screen-->
+  <button id="go2create" class="smallest-button"> Create Account </button>
+</div>
+<!-- CREATE ACCOUNT PAGE-->
+<div id="create-account">
+  <!--username and password input for creating account-->
+  <h1> Create an Account </h1>
+  <div class="txt">Username: <input type = "text" name = "username"><br><br>
+    Password: <input type = "password" name = "password"><br><br>
+    Re-enter Password: <input type = "password" name = "password"><br><br></div>
+    <!--button to finalize the account creation process and move to login screen-->
+    <button id="create" class="small-button"> Create Account </button>
+  </div>
+  <!--SCRIPTS
+  first is the Particle javascript and second is the Door.js which animates the UI and iteracts with Photon-->
+  <script type="text/javascript" src="resources/particle/particle.min.js"></script>
+  <script src="Door.js"></script>
+</body>
+</html>
