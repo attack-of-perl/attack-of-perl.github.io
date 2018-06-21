@@ -4,6 +4,10 @@ body {
   font-size: 20px;
 }
 
+#top{
+  font-size: 200%;
+  font-family: arial;
+}
 #status-bar-unlocked {
   height: 80px;
   width: 100%;
